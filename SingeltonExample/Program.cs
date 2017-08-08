@@ -1,12 +1,15 @@
-﻿using System;
-
-namespace SingeltonExample
+﻿namespace SingeltonExample
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //var c = new Configuration();
+
+            var c = Configuration.Instance;
+            c.LoadConfig();
+
+            Configuration.Instance.LoadConfig();
         }
     }
 }
