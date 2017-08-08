@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Component">
+    <Position X="3.925" Y="0.549" Height="0.35" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Concrete Component">
+    <Position X="0.948" Y="2.064" Height="0.35" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Decorator">
+    <Position X="6.9" Y="2.054" Height="0.35" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Concrete Decorator 1">
+    <Position X="4.696" Y="4.556" Height="0.35" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Concrete Decorator 2">
+    <Position X="8.898" Y="4.546" Height="0.35" Width="1.7" />
+  </Comment>
+  <Class Name="DecoratorExample.Decorators.CachingDataService">
+    <Position X="5.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorators\CachingDataService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoratorExample.Decorators.DataServiceDecorator">
+    <Position X="7" Y="2.75" Width="1.5" />
+    <AssociationLine Name="BaseDataService" Type="DecoratorExample.Core.IDataService" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.5" Y="3.438" />
+        <Point X="8.875" Y="3.438" />
+        <Point X="8.875" Y="1.312" />
+        <Point X="5.5" Y="1.312" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorators\DataServiceDecorator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="BaseDataService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DecoratorExample.Decorators.LoggingDataService">
+    <Position X="8" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorators\LoggingDataService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoratorExample.Data.DataService">
+    <Position X="1" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\DataService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="DecoratorExample.Core.IDataService">
+    <Position X="4" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\IDataService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="10" />
+</ClassDiagram>
