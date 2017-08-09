@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesExample", "Delegat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesInPraxis", "DelegatesInPraxis\DelegatesInPraxis.csproj", "{B3C7F01F-7D6E-4802-982D-6384E034DDFE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodExample", "TemplateMethodExample\TemplateMethodExample.csproj", "{387B7241-D5DD-4CC2-A693-7141BD0E6BA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{B3C7F01F-7D6E-4802-982D-6384E034DDFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3C7F01F-7D6E-4802-982D-6384E034DDFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3C7F01F-7D6E-4802-982D-6384E034DDFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{387B7241-D5DD-4CC2-A693-7141BD0E6BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{387B7241-D5DD-4CC2-A693-7141BD0E6BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{387B7241-D5DD-4CC2-A693-7141BD0E6BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{387B7241-D5DD-4CC2-A693-7141BD0E6BA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

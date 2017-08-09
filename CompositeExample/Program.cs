@@ -24,6 +24,11 @@ namespace CompositeExample
 
             wasSoZuTunIst.WirdErledigt();
 
+            foreach (var a in wasSoZuTunIst)
+            {
+
+            }
+
             Console.ReadKey();
         }
     }
