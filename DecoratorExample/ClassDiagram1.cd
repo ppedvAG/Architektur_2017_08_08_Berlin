@@ -13,22 +13,22 @@
     <Position X="4.696" Y="4.556" Height="0.35" Width="1.7" />
   </Comment>
   <Comment CommentText="Concrete Decorator 2">
-    <Position X="8.898" Y="4.546" Height="0.35" Width="1.7" />
+    <Position X="9.084" Y="4.527" Height="0.35" Width="1.7" />
   </Comment>
   <Class Name="DecoratorExample.Decorators.CachingDataService">
-    <Position X="5.75" Y="5" Width="1.5" />
+    <Position X="5.5" Y="5" Width="2" />
     <TypeIdentifier>
       <HashCode>QCAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Decorators\CachingDataService.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DecoratorExample.Decorators.DataServiceDecorator">
-    <Position X="7" Y="2.75" Width="1.5" />
+    <Position X="6.75" Y="2.75" Width="2" />
     <AssociationLine Name="BaseDataService" Type="DecoratorExample.Core.IDataService" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="8.5" Y="3.438" />
-        <Point X="8.875" Y="3.438" />
-        <Point X="8.875" Y="1.312" />
+        <Point X="8.75" Y="3.438" />
+        <Point X="9.125" Y="3.438" />
+        <Point X="9.125" Y="1.312" />
         <Point X="5.5" Y="1.312" />
       </Path>
     </AssociationLine>
@@ -42,7 +42,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="DecoratorExample.Decorators.LoggingDataService">
-    <Position X="8" Y="5" Width="1.5" />
+    <Position X="8" Y="5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Decorators\LoggingDataService.cs</FileName>

@@ -11,7 +11,7 @@ namespace DecoratorExample.Decorators
         private readonly ILogger _logger;
 
         public LoggingDataService(IDataService baseDataService, ILogger logger)
-            :base(baseDataService)
+            : base(baseDataService)
         {
             _logger = logger;
         }
