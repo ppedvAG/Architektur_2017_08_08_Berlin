@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace ObserverExample
 {
@@ -13,6 +14,8 @@ namespace ObserverExample
         //    _kühlung = kühlung;
         //}
 
+        public event Action<int> TemperaturGeändert;
+
         private List<ITemperaturÜberwacher> _geräte = new List<ITemperaturÜberwacher>();
 
         public void MesseTemperatur(int temperatur)
@@ -22,8 +25,10 @@ namespace ObserverExample
             // Heizung und Kühlung müssen über der neuen Temperatur informiert werden
             //_heizung.NeueTemperatur(temperatur);
             //_kühlung.NeueTemperatur(temperatur);
-            foreach (var gerät in _geräte)
-                gerät.NeueTemperatur(temperatur);
+            //foreach (var gerät in _geräte)
+            //    gerät.NeueTemperatur(temperatur);
+
+            TemperaturGeändert?.Invoke(temperatur);
         }
 
         public void Anmelden(ITemperaturÜberwacher gerät)
