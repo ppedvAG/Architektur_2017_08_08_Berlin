@@ -1,0 +1,14 @@
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+<p>@ViewData["MeinEintrag"]</p>
+
+
+<ul>
+    @foreach (var c in @Model)
+    {
+        <li>@c.Firstname - @c.Lastname</li>
+    }
+</ul>
